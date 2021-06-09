@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  font-family: "Jost", sans-serif;
+}
+.Cards {
+  float: left;
+  margin-right: 1vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.CardImage {
+  height: 300px;
+  width: 300px;
+  transition: 0.5s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Cards:hover .CardImage {
+  filter: brightness(0.4) blur(2px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.CardTitle {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: 0.5s;
   color: white;
+  margin-left: 1vw;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Cards:hover .CardTitle {
+  opacity: 1;
 }
