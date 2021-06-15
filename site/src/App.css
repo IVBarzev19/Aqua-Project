@@ -2,30 +2,69 @@
 * {
   font-family: "Jost", sans-serif;
 }
-.Cards {
-  float: left;
-  margin-right: 1vw;
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 40vh;
+  overflow: hidden;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
 }
 
-.CardImage {
-  height: 300px;
-  width: 300px;
-  transition: 0.5s;
+.card {
+  overflow: hidden;
+  position: relative;
 }
 
-.Cards:hover .CardImage {
-  filter: brightness(0.4) blur(2px);
-}
-
-.CardTitle {
+.card-title {
   opacity: 0;
+  color: #f1f1f1;
   position: absolute;
   top: 0;
-  transition: 0.5s;
-  color: white;
-  margin-left: 1vw;
+  transition: 0.7s;
 }
 
-.Cards:hover .CardTitle {
+.card-title h1 {
+  margin-top: 3vh;
+  margin-left: 1vw;
+  font-size: 2.25em;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif; 
+  line-height: 1.25;
+  transition: 0.5s;
+}
+
+.card-title p {
+  margin-left: 1vw;
+  width: 90%;
+  font-size: 1em;
+  line-height: 1.25;
+  transition: 0.5s;
+}
+
+.card hr {
+  margin-left: 1vw;
+  border: 0.1em solid white;
+  background-color: white;
+  margin-top: 0;
+  width: 0;
+  transition: 0.5s;
+}
+
+.card img {
+  height: 100%;
+  transition: transform 0.7s, filter 1s ease;
+}
+
+.card:hover img{
+  transform: scale(1.15);
+  filter: brightness(0.6) blur(.07em) contrast(110%) saturate(50%);
+}
+
+.card:hover .card-title {
   opacity: 1;
+}
+
+.card:hover hr {
+  width: 90%;
 }
