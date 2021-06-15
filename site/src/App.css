@@ -1,7 +1,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
 * {
-  color: #f1f1f1;
   font-family: "Jost", sans-serif;
+}
+
+*::selection {
+  background: #348981;
+  color: white;
+}
+
+body {
+  color: #f1f1f1;
+  background-color: #06060c;
+  margin: 0;
+}
+
+/*
+  * Main Indent
+*/
+
+.main-indent {
+  height: 100vh;
+  margin-top: 0;
+  color: #f1f1f1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/spray-1761311_1920.jpg");
+}
+
+.main-indent-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-indent-title h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  font-family: 'Century Gothic', sans-serif;
+  letter-spacing: 0.5ch;
+  animation: fly-in 1.5s;
+}
+
+@keyframes fly-in {
+  0%   { 
+  transform: translatey(100%);
+  opacity: 0;		
+  }
+  100% { 
+  transform: translatey(0%); 
+  opacity: 1;
+  }
+}
+
+.main-indent-title h1::selection {
+  color: #348981;
+  background-color: transparent;
+}
+
+.main-indent-title h2 {
+  margin-top: 0;
+  margin-bottom: 20vh;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Century Gothic', sans-serif;
+  letter-spacing: 0.25ch;
+  animation: fly-in 1s;
+}
+
+.main-indent-title button {
+  background-color: transparent;
+  border: 0.05em solid #f1f1f1;
+  border-radius: 0.25em;
+  margin-top: 0;
+  color: #f1f1f1;
+  font-size: 2em;
+  font-family: 'Century Gothic', sans-serif;
+  letter-spacing: 0.25ch;
+  transition: 0.5s;
+  animation: fly-in 1s;
+}
+
+.main-indent-title button:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.main-indent-title:first-child {
+  padding-top: 20vh;
 }
 
 /* 
