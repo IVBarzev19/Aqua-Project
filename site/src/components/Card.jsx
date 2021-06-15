@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Card = () => {
   return (
@@ -10,7 +10,10 @@ const Card = () => {
       <div className="card-title">
         <h1>Title</h1>
         <hr />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
       </div>
     </a>
   );

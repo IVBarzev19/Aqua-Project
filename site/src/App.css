@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 * {
+  color: #f1f1f1;
   font-family: "Jost", sans-serif;
 }
+
+/* 
+  * Cards 
+*/
 
 .card-grid {
   display: grid;
@@ -29,7 +34,7 @@
   margin-top: 3vh;
   margin-left: 1vw;
   font-size: 2.25em;
-  font-family: Futura, Trebuchet MS, Arial, sans-serif; 
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
   line-height: 1.25;
   transition: 0.5s;
 }
@@ -56,9 +61,9 @@
   transition: transform 0.7s, filter 1s ease;
 }
 
-.card:hover img{
+.card:hover img {
   transform: scale(1.15);
-  filter: brightness(0.6) blur(.07em) contrast(110%) saturate(50%);
+  filter: brightness(0.6) blur(0.07em) contrast(110%) saturate(50%);
 }
 
 .card:hover .card-title {
@@ -67,4 +72,78 @@
 
 .card:hover hr {
   width: 90%;
+}
+
+/*
+  * Panels 
+*/
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 90vh;
+  grid-gap: 0.25em;
+  overflow: hidden;
+}
+
+.panel-grid-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.panel-item-title {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: 0.7s;
+}
+
+.panel-item-title h1 {
+  margin-top: 3vh;
+  margin-left: 1vw;
+  font-size: 2.25em;
+  font-weight: bold;
+  line-height: 1.25;
+  transition: 0.5s;
+}
+
+.panel-item-title p {
+  margin-left: 1vw;
+  width: 90%;
+  font-size: 1em;
+  line-height: 1.25;
+  transition: 0.5s;
+}
+
+.panel-grid-item img {
+  height: 100%;
+  transition: transform 0.7s, filter 1s ease;
+}
+
+.panel-grid-item:hover img {
+  transform: scale(1.15);
+  filter: brightness(0.5) blur(0.07em) contrast(110%) saturate(50%);
+}
+
+.panel-grid-item:hover .panel-item-title {
+  opacity: 1;
+}
+
+/* 
+  * ScrollBar 
+*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(28, 44, 54);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #348981;
 }
