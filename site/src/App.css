@@ -217,6 +217,82 @@ body {
   opacity: 1;
 }
 
+/*
+  * Preloader
+*/
+#preloader {
+  background-color: #00000e;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  text-align: center;
+}
+
+#preloader svg {
+  margin-top: 30vh;
+}
+
+.triangle{
+  fill: transparent;
+  stroke: white;
+  stroke-width: 13;
+}
+
+.triangle:nth-child(1) {
+  stroke: white;
+  animation: triangle-anim1 1s alternate infinite;
+}
+
+.triangle:nth-child(2) {
+  stroke: #348981;
+  animation: triangle-anim2 1s alternate infinite;
+}
+
+.triangle:nth-child(3) {
+  stroke: #16302B;
+  animation: triangle-anim3 1s alternate infinite;
+}
+
+@keyframes triangle-anim1 {
+  0% { 
+      stroke: white;
+      transform: scaleY(1.05);
+  }
+  50% { 
+      stroke: #348981;
+  }
+  100% { 
+      stroke: #16302B;
+  }
+}
+
+@keyframes triangle-anim2 {
+  0% { 
+      stroke: #16302B;	
+  }
+  50% { 
+      stroke: white;
+      transform: scaleY(1.05);
+  }
+  100% {
+      stroke: #348981;
+  }
+}
+
+@keyframes triangle-anim3 {
+  0% {
+      stroke: #348981;	
+  }
+  50% {
+      stroke: #16302B;
+  }
+  100% {
+      stroke: white;
+      transform: scaleY(1.05);
+  }
+}
+
 /* 
   * ScrollBar 
 */

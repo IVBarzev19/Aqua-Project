@@ -1,7 +1,7 @@
 import React from "react";
 const Panel = () => {
   return (
-    <div class="panel-grid-item">
+    <div className="panel-grid-item">
       {/*
        * TODO: Pull images from folder and dynamically set them to img tag
        */}
@@ -9,7 +9,7 @@ const Panel = () => {
         src="https://cdn.shopify.com/s/files/1/0911/8940/articles/photo-1478760329108-5c3ed9d495a0_1750x.jpg?v=1585946939"
         alt=""
       />
-      <div class="panel-item-title">
+      <div className="panel-item-title">
         <h1>History of Oceanography</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
