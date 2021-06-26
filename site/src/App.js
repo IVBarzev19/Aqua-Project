@@ -1,17 +1,18 @@
 import "./App.css";
+import React, { Component } from 'react';
 import CardsGrid from "./components/CardsGrid";
 import PanelGrid from "./components/PanelGrid";
 import MainIndent from "./components/MainIndent";
-import Preloader from "./components/Preloader";
-function App() {
-  return (
-    <div className="App">
-      <Preloader />
-      <MainIndent />
-      <CardsGrid />
-      <PanelGrid />
-    </div>
-  );
+class App extends Component {
+  render() { 
+    return (
+      <div className="App">
+        <MainIndent />
+        <CardsGrid />
+        <PanelGrid />
+      </div>
+    );
+  }
 }
-
+ 
 export default App;
