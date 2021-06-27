@@ -11,7 +11,11 @@
 
 body {
   color: #f1f1f1;
-  background-color: #06060c;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/spray-1761311_1920.jpg");
   margin: 0;
 }
 
@@ -25,7 +29,7 @@ nav {
   text-align:center;
   transition: top 0.4s;
   z-index: 3;
-  background-color: #00000e;
+
 }
 
 nav ul li {
@@ -84,11 +88,7 @@ transition-duration: .25s;
   height: 100vh;
   margin-top: 0;
   color: #f1f1f1;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("images/spray-1761311_1920.jpg");
+  
 }
 
 .main-indent-title {
