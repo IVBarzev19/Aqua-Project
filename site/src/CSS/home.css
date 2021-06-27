@@ -146,7 +146,7 @@
   }
   
   .card img {
-    height: 100%;
+    width: 100%;
     transition: transform 0.7s, filter 1s ease;
   }
   
