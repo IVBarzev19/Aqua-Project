@@ -2,7 +2,7 @@ import React from "react";
 const Panel = () => {
   return (
     <div className="panel-grid-item">
-      {/*
+      {/**
        * TODO: Pull images from folder and dynamically set them to img tag
        */}
       <img
