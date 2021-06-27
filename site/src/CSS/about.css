@@ -1,0 +1,163 @@
+/*
+  * About
+*/
+
+/* Contact */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100vh;
+    grid-gap: 0.25em;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    overflow: hidden;
+  }
+  
+  .contact-grid-text {
+    margin-top: 20vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+  }
+  
+  .text-back {
+    background-color: hsla(240, 20%, 9%, 0.55);
+    box-shadow: 0 0.5em 2em 0 rgba(15, 15, 22, 0.5);
+    backdrop-filter: blur( 0.5em );
+    -webkit-backdrop-filter: blur( 0.5em );
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 0.25em;
+  }
+  
+  .contact-grid-text h1 {
+    margin: 0;
+    margin-bottom: 5vh;
+    font-size: 4em;
+  }
+  
+  .contact-grid-text p {
+    margin-right: 1.25vw;
+    margin-left: 1.25vw;
+    word-spacing: 0.25ch;
+    font-size: 1.25em;
+  }
+  
+  .contact-grid-text p:last-child {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2vw;
+  }
+  
+  form {
+    margin-top: 20vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  
+  ::placeholder {
+    color: white;
+    font-size: 1.25em;
+    text-align: center;
+    opacity: 1;
+  }
+  
+  input[type=text], input[type=email], input[type=tel], textarea {
+    width: 100%;
+    background-color: hsla(240, 20%, 9%, 0.55);
+    box-shadow: 0 0.5em 2em 0 rgba(15, 15, 22, 0.25);
+    backdrop-filter: blur( 0.5em );
+    -webkit-backdrop-filter: blur( 0.5em );
+    border-radius: 0.25em;
+    border: none;
+    padding: 0.75em;
+    resize: vertical;
+    margin-bottom: 3vh;
+    transition: 0.5s;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, textarea:focus {
+    background-color: hsla(240, 20%, 9%, 0.75);
+    box-shadow: 0 0.5em 2em 0 rgba(15, 15, 22, 0.25);
+    backdrop-filter: blur( 0.5em );
+    -webkit-backdrop-filter: blur( 0.5em );
+  }
+  
+  textarea {
+    min-height: 20vh;
+    max-height: 40vh;
+  }
+  
+  textarea::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 1em;
+  }
+  
+  textarea::-webkit-scrollbar-track {
+    background: hsla(240, 100%, 3%, 0.25); 
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+    background: rgb(28, 44, 54);
+    border-radius: 1em;
+  }
+  
+  input[type=submit] {
+    background-color: #16302B;
+    color: white;
+    font-size: 1.25em;
+    padding: 0.75em 1.25em;
+    width: 50%;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: 0.25s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #348981;
+  }
+  
+  
+  /* Team */
+  .team-indent {
+    background-image: url(../images/splatter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 45vh;
+    align-items: center;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    background-color: #00000e;
+  }
+  
+  .team-grid img{
+    border-radius: 100%;
+    height: 25vh;
+    margin-left: 0;
+  }
+  
+  .team-grid h1{
+    margin-top: 1vh;
+    margin-bottom: 0;
+    font-size: 1.75em;
+    font-weight: bold;
+  }
+  
+  .team-grid h2 {
+    font-size: 1em;
+    color: hsla(0, 0%, 100%, 0.5);
+  }

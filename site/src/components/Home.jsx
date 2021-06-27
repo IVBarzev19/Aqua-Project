@@ -1,7 +1,7 @@
 import React from 'react';
-import CardsGrid from "./CardsGrid";
-import PanelGrid from "./PanelGrid";
-import MainIndent from "./MainIndent";
+import CardsGrid from "./Home/CardsGrid";
+import PanelGrid from "./Home/PanelGrid";
+import MainIndent from "./Home/MainIndent";
 
 const Home = () => {
     return ( 
