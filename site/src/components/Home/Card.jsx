@@ -4,7 +4,7 @@ const Card = () => {
   return (
     <a className="card">
       <img
-        src="https://cdn.mos.cms.futurecdn.net/JKzM6jkUp72F2tLmLiLFQG-1200-80.jpg"
+        src="https://images.pexels.com/photos/3608311/pexels-photo-3608311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
         alt="image"
       />
       <div className="card-title">
