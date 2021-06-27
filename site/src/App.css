@@ -157,18 +157,40 @@ transition-duration: .25s;
   * Cards 
 */
 
+.cards-indent {
+  background-image: url(images/cards-indent.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  height: 35vh;
+}
+
+.cards-indent-reversed {
+  background-image: url(images/cards-indent-reversed.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  height: 35vh;
+}
+
+.card-back {
+  background-color: black;
+  padding: 2em;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 40vh;
+  column-gap: 1vw;
+  row-gap: 2vh;
   overflow: hidden;
-  margin-top: 0.5vh;
-  margin-bottom: 0.5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 .card {
   overflow: hidden;
   position: relative;
+  border-radius: 0.25em;
 }
 
 .card-title {
