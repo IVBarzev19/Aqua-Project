@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import AnimalCard from "./AnimalCard";
 class AnimalsGrid extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() { 
     return ( 
       <div>

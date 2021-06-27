@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import Card from "./Card";
 
 class CardsGrid extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() { 
     return ( 
     <div>
