@@ -1,10 +1,14 @@
-import React from "react";
+import React, { Component } from 'react';
 
-const Card = () => {
-  return (
+class Card extends Component {
+  constructor(props) {
+    super(props);
+  }
+  render() { 
+    return ( 
     <a className="card">
       <img
-        src="https://images.pexels.com/photos/3608311/pexels-photo-3608311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        src={this.props.image}
         alt="image"
       />
       <div className="card-title">
@@ -15,8 +19,9 @@ const Card = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
-    </a>
+    </a> 
   );
-};
-
+  }
+}
+ 
 export default Card;
