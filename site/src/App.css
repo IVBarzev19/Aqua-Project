@@ -16,6 +16,67 @@ body {
 }
 
 /*
+  *Navbar
+*/
+nav {
+  flex-grow: 1;
+  padding-top: 1.5vh;
+  padding-bottom: 1.25vh;
+  text-align:center;
+  transition: top 0.4s;
+  z-index: 3;
+  background-color: #00000e;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0.5%;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #EDEFEF;
+  padding: 1vw 1.5vw 2vh 1.5vw;
+  border-radius: 0.25em;
+  font-weight: bold;
+  position: relative;
+overflow: hidden;
+transition: .5s ease-in-out; 
+}
+
+nav a:hover {
+  background-color: #e2e2e2;
+  color: #00000e;
+}
+
+nav a::before, 
+nav a::after {
+content: "";
+width: 0;
+height: 0.25em;
+  background-color: #348981;
+transition: width .15s ease-out;
+position: absolute;
+bottom: 0;
+}
+
+nav a::before {
+left: 50%;
+transform: translateX(-50%); 
+}
+nav a::after {
+right: 50%;
+transform: translateX(50%); 
+}
+nav a:hover::before, 
+nav a:hover::after {
+width: 100%;
+transition-duration: .25s;
+}
+
+/*
   * Main Indent
 */
 
