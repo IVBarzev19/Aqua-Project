@@ -6,7 +6,7 @@ class AnimalCard extends Component {
       <Link to={this.props.image}  className="animal-card">
           <img
             src={this.props.image}
-            alt="image"
+            alt={this.props.image}
           />
           <h1>It's a Fish</h1>
           <p>

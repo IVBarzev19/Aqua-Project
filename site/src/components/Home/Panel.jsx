@@ -7,7 +7,7 @@ class Panel extends Component {
       <Link to={this.props.image} className="panel-grid-item">
         <img
         src={this.props.image}
-        alt="image"
+        alt={this.props.image}
         />
         <div className="panel-item-title">
           <h1>History of Oceanography</h1>
