@@ -9,12 +9,14 @@ import {
   Card1, Card2, Card3,
   Card4, Card5, Card6,
   Animal1, Animal2, Animal3, Animal4, 
-  Animal5, Animal6, Animal7, Animal8 
+  Animal5, Animal6, Animal7, Animal8,
+  Panel1, Panel2, Panel3, Panel4
       } from "./Images";
 
 class App extends Component {
-  images=[Card1, Card2, Card3, Card4, Card5, Card6,
-                Animal1, Animal2, Animal3, Animal4, Animal5, Animal6, Animal7, Animal8 ];
+  images=[ Card1, Card2, Card3, Card4, Card5, Card6,
+          Animal1, Animal2, Animal3, Animal4, Animal5, Animal6, Animal7, Animal8,
+          Panel1, Panel2, Panel3, Panel4 ];
 
   render() { 
     return (
@@ -25,7 +27,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             {this.images.map(( path ) => ( 
-            <Route path={path} component={Article}/>
+            <Route path={path} component={Article} />
            ))};
           </Switch>
         </Router>
