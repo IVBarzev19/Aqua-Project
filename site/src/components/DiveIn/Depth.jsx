@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class Depth extends Component {
     render() { 
         return ( 
-        <div class="depth-container">
+        <div className="depth-container">
             <div>
                 <h1>0 Metres</h1>
                 <p>
