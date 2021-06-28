@@ -4,7 +4,8 @@ import {
     Card1, Card2, Card3,
     Card4, Card5, Card6,
     Animal1, Animal2, Animal3, Animal4, 
-    Animal5, Animal6, Animal7, Animal8 
+    Animal5, Animal6, Animal7, Animal8,
+    Panel1, Panel2, Panel3, Panel4
         } from "./../Images";
 import CardsGrid from "./Home/CardsGrid";
 import AnimalsGrid from "./Home/AnimalsGrid";
@@ -36,7 +37,12 @@ class Home extends Component {
                     Animal7,
                     Animal8
                 ]}/>
-                <PanelGrid />
+                <PanelGrid images={[
+                    Panel1,
+                    Panel2,
+                    Panel3,
+                    Panel4
+                ]} />
             </div>
          );
     }

@@ -1,19 +1,20 @@
-import React from "react";
+import React, { Component } from 'react';
 import Panel from "./Panel";
 
-const PanelGrid = () => {
-  return (
+class PanelGrid extends Component {
+  render() { 
+    return ( 
     <div>
       <div class="panels-indent"></div>
 
       <div className="panel-grid">
-        <Panel />
-        <Panel />
-        <Panel />
-        <Panel />
+          {this.props.images.map(( path ) => ( 
+            <Panel image={path} />
+          ))} 
       </div>
-    </div>
-  );
-};
+    </div> );
+  }
+}
+ 
 
 export default PanelGrid;

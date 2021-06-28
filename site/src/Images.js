@@ -12,6 +12,10 @@ import Animal5 from "./images/Animal5.jpg";
 import Animal6 from "./images/Animal6.jpg";
 import Animal7 from "./images/Animal7.jpg";
 import Animal8 from "./images/Animal8.jpg";
+import Panel1 from "./images/Panel1.jpg";
+import Panel2 from "./images/Panel2.jpg";
+import Panel3 from "./images/Panel3.jpg";
+import Panel4 from "./images/Panel4.jpg";
 
 
-export { Card1, Card2, Card3, Card4, Card5, Card6, Animal1, Animal2, Animal3, Animal4, Animal5, Animal6, Animal7, Animal8 };
+export { Card1, Card2, Card3, Card4, Card5, Card6, Animal1, Animal2, Animal3, Animal4, Animal5, Animal6, Animal7, Animal8, Panel1, Panel2, Panel3, Panel4 };
