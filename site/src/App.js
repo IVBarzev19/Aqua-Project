@@ -25,7 +25,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             {this.images.map(( path ) => ( 
-            <Route image={path} component={Article}/>
+            <Route path={path} component={Article}/>
            ))};
           </Switch>
         </Router>
