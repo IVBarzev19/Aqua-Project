@@ -38,6 +38,9 @@ This will start the live server
 ## Usage <a name = "usage"></a>
 
 You can navigate the site using the top navbar
+
 Home - homepage. All cards and panes are clickable and lead to article
+
 About us - a feedback form and some information about the team
+
 Dive In - Information about sea creatures at different depths
