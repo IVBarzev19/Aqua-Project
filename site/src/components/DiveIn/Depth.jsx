@@ -4,7 +4,7 @@ class Depth extends Component {
         return ( 
         <div className="depth-container">
             <div>
-                <h1>0 Metres</h1>
+                <h1>{this.props.depth}</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna 
