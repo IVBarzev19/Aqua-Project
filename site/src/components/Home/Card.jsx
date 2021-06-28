@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Card extends Component {
   render() { 
     return ( 
-    <a className="card">
+    <Link to={this.props.image} className="card">
       <img
         src={this.props.image}
         alt="image"
@@ -16,7 +16,7 @@ class Card extends Component {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
-    </a> 
+    </Link> 
   );
   }
 }
