@@ -216,14 +216,23 @@
 /*
     * Panels 
 */
+
+.panels-indent {
+  background-image: url(../images/panels-indent.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35vh;
+}
   
-  .panel-grid {
+.panel-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 90vh;
     grid-gap: 0.25em;
     overflow: hidden;
-  }
+    padding-top: 1vh;
+    background-color: black;
+}
   
   .panel-grid-item {
     overflow: hidden;
