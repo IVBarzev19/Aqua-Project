@@ -1,3 +1,16 @@
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+a:visited {
+  color: #f1f1f1;
+}
+
+a:active {
+  color: #f1f1f1;
+}
+
 /*
   * Main Indent
 */
@@ -6,8 +19,7 @@
     height: 100vh;
     margin-top: 0;
     color: #f1f1f1;
-    
-  }
+}
   
   .main-indent-title {
     display: flex;
