@@ -91,6 +91,7 @@ input[type=text], input[type=email], input[type=tel], textarea {
     padding: 0.75em;
     resize: vertical;
     margin-bottom: 3vh;
+    color: white;
     transition: 0.5s;
     animation: fly-in-right 2s;
 }
