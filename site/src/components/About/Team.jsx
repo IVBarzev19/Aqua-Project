@@ -6,14 +6,14 @@ const Form = () => {
         <div class="team-indent"></div>
         <div class="team-grid">
             <div>
-                <img src="https://static01.nyt.com/images/2021/05/17/business/14altGates-print/14Gates--top-mediumSquareAt3X.jpg" alt="Bill"/>
-                <h1>Bill Gates</h1>
+                <img src="https://avatars.githubusercontent.com/u/63721543?v=4" alt="Team Member"/>
+                <h1>Presian Stefanov</h1>
                 <h2>Front-End</h2>
             </div>
             
             <div>
-                <img src="https://techcrunch.com/wp-content/uploads/2015/10/180968094-e1523033265721.jpg" alt="Bill"/>
-                <h1>Mark Zucc</h1>
+                <img src="https://avatars.githubusercontent.com/u/63734409?v=4" alt="Bill"/>
+                <h1>Daniel Georgiev</h1>
                 <h2>Designer</h2>
             </div>
 
