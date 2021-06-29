@@ -24,7 +24,7 @@ const Form = () => {
             </div>
 
             <div>
-                <img src="https://pbs.twimg.com/profile_images/1303592136269590528/hPWdTMgc.jpg" alt="Bill"/>
+                <img src="https://avatars.githubusercontent.com/u/85344134?v=4" alt="Bill"/>
                 <h1>Denislav Bratoevsky</h1>
                 <h2>QA Engineer</h2>
             </div>
