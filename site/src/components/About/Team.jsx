@@ -19,7 +19,7 @@ const Form = () => {
 
             <div>
                 <img src="https://avatars.githubusercontent.com/u/63741178?v=4" alt="Bill"/>
-                <h1>Ivan Bъrzev</h1>
+                <h1>Ivan Burzev</h1>
                 <h2>Back-End</h2>
             </div>
 
@@ -52,7 +52,7 @@ const Form = () => {
             </div>
 
             <div>
-                <h1>Ivan Bъrzev</h1>
+                <h1>Ivan Burzev</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
