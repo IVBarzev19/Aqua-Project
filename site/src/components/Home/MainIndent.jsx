@@ -4,13 +4,13 @@ const MainIndent = () => {
   return (
     <div className="main-indent">
         <div className="main-indent-title">
-            <h1>ЗАГЛАВИЕ</h1>
+            <h1>SOMNUM </h1>
         </div>
         <div className="main-indent-title">
-            <h2>ВТОРО ЗАГЛАВИЕ</h2>
+            <h2>AN UNDERWATER ADVENTURE </h2>
         </div>
         <div className="main-indent-title">
-            <button>&#11163; ВИЖ ПОВЕЧЕ &#11163;</button>
+            <button>&#11163; SEA MORE &#11163;</button>
         </div>
     </div>
   );
