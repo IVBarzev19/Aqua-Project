@@ -29,10 +29,10 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/dive-in" component={DiveIn} />
-            <Route path="*" component={NotFound} />
-            {this.images.map(( path ) => ( 
-              <Route path={path} component={Article} />
+            {this.images.map(( images ) => ( 
+              <Route path={images} component={Article} />
               ))};
+            <Route path="*" component={NotFound} />
           </Switch>
         </Router>
       </div>
