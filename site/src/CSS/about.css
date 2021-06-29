@@ -163,7 +163,7 @@ input[type=submit]:hover {
   
   .team-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 45vh;
     align-items: center;
     color: white;
