@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 class Depth extends Component {
+     
     render() { 
         return ( 
-        <div className="depth-container">
+        <div className="depth-container" style={{background: `linear-gradient(${this.props.color1}, ${this.props.color2})`}}>
             <div>
-                <h1>{this.props.depth}</h1>
+                <h1>{this.props.title}</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -27,5 +28,5 @@ class Depth extends Component {
         );
     }
 }
- 
+
 export default Depth;
