@@ -34,40 +34,28 @@ const Form = () => {
             <div>
                 <h1>Presian Stefanov</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat.
+                    Took the role of Front-End developer. My job was to make React work.
                 </p>
             </div>
 
             <div>
                 <h1>Daniel Georgiev</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat.
+                    Took the role of Designer. My job was to design the site and choose the images we used.
                 </p>
             </div>
 
             <div>
                 <h1>Ivan Burzev</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat.
+                    I took the role of Back-End developer. I had to make the site functional.
                 </p>
             </div>
 
             <div>
                 <h1>Denislav Bratoevsky</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat.
+                    I took the role of QA Engineer. I checked for bugs and gave my opinion about possible solutions for them.
                 </p>
             </div>
         </div>
