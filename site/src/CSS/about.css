@@ -163,7 +163,7 @@ input[type=submit]:hover {
   
   .team-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 45vh;
     align-items: center;
     color: white;
@@ -190,3 +190,27 @@ input[type=submit]:hover {
     font-size: 1em;
     color: hsla(0, 0%, 100%, 0.5);
   }
+
+.team-info {
+  background-color: #00000e;
+  margin: 0;
+  padding: 0;
+}
+
+.team-info h1 {
+  margin: 0;
+  padding: 0;
+  padding-top: 1vh;
+  text-align: center;
+}
+
+.team-info p {
+  margin: 0;
+  padding: 0;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  font-size: 1.25em;
+}

@@ -18,21 +18,57 @@ const Form = () => {
             </div>
 
             <div>
-                <img src="https://pbs.twimg.com/profile_images/669103856106668033/UF3cgUk4_400x400.jpg" alt="Bill"/>
-                <h1>Jeff Bezos</h1>
-                <h2>Database</h2>
-            </div>
-
-            <div>
                 <img src="https://avatars.githubusercontent.com/u/63741178?v=4" alt="Bill"/>
-                <h1>Ivan Burzev</h1>
+                <h1>Ivan Bъrzev</h1>
                 <h2>Back-End</h2>
             </div>
 
             <div>
                 <img src="https://pbs.twimg.com/profile_images/1303592136269590528/hPWdTMgc.jpg" alt="Bill"/>
-                <h1>Boyko Borisov</h1>
+                <h1>Denislav Bratoevsky</h1>
                 <h2>QA Engineer</h2>
+            </div>
+        </div>
+
+        <div className="team-info">
+            <div>
+                <h1>Presian Stefanov</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <div>
+                <h1>Daniel Georgiev</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <div>
+                <h1>Ivan Bъrzev</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <div>
+                <h1>Denislav Bratoevsky</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
             </div>
         </div>
     </div>
