@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Article from "./components/Article";
 import DiveIn from "./components/DiveIn";
+import NotFound from "./components/NotFound";
 import Navbar from "./components/Navbar";
 import { 
   Card1, Card2, Card3,
@@ -28,9 +29,10 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/dive-in" component={DiveIn} />
+            <Route path="*" component={NotFound} />
             {this.images.map(( path ) => ( 
-            <Route path={path} component={Article} />
-           ))};
+              <Route path={path} component={Article} />
+              ))};
           </Switch>
         </Router>
       </div>
