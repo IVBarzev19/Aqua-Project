@@ -18,12 +18,6 @@ const Form = () => {
             </div>
 
             <div>
-                <img src="https://pbs.twimg.com/profile_images/669103856106668033/UF3cgUk4_400x400.jpg" alt="Bill"/>
-                <h1>Nevena Pavlova</h1>
-                <h2>Scrum Trainer</h2>
-            </div>
-
-            <div>
                 <img src="https://avatars.githubusercontent.com/u/63741178?v=4" alt="Bill"/>
                 <h1>Ivan Bъrzev</h1>
                 <h2>Back-End</h2>
@@ -49,16 +43,6 @@ const Form = () => {
 
             <div>
                 <h1>Daniel Georgiev</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat.
-                </p>
-            </div>
-
-            <div>
-                <h1>Nevena Pavlova</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
